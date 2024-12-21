@@ -1,0 +1,14 @@
+{
+  "name": "Chat Scroll Helper",
+  "version": "1.0",
+  "description": "Disable smooth scrolling and navigate quickly in a chat page.",
+  "manifest_version": 3,
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["contentScript.js"],
+      "css": ["contentStyles.css"]
+    }
+  ]
+}
